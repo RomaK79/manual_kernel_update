@@ -7,17 +7,6 @@
 
 
 ### **Packer**
-Переходим на https://www.packer.io/downloads.html выбираем соответствующую версию. В данном случае Linux 64-bit и версия 1.4.4. Копируем ссылку и в консоли выполняем:
-
-```
-curl https://releases.hashicorp.com/packer/1.4.4/packer_1.4.4_linux_amd64.zip | \
-sudo gzip -d > /usr/local/bin/packer && \
-sudo chmod +x /usr/local/bin/packer
-```
-
-После успешного окончания будет установлен Packer.
-
----
 
 # **Kernel update**
 
